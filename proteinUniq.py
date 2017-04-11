@@ -1,3 +1,14 @@
+'''
+Problem: 
+
+For the first 2000 different reference proteins in column 1,
+extract all their inferred binding partners (column 2), and 
+report for each reference protein a) the candidate binding 
+partner with the highest probability of interaction, and b) 
+the total number of candidate binding partners for that 
+reference protein.
+'''
+
 import sys
 import bz2
 
